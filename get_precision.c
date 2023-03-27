@@ -33,7 +33,7 @@ int get_precision(const char *format, int *i, va_list list)
 		}
 		else if (format[*i + 1] == 's' || format[*i + 1] == 'd')
 		{
-			return (precision);
+			return (-1);
 		}
 		else
 			break;
