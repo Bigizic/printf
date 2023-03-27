@@ -17,6 +17,10 @@ int get_precision(const char *format, int *i, va_list list)
 		return (precision);
 
 	precision = 0;
+	if (format[*i + 1] == 's' || format[*i + 1] == 'd')
+	{
+		return (precision);
+	}
 
 	for (curr_i += 1; format[curr_i] != '\0'; curr_i++)
 	{
