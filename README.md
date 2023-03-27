@@ -63,10 +63,7 @@ You don’t have to handle the length modifiers
 --------------------------------------------------------------
 
 7. The big print gives and the small print takes away: 
-Handle the following flag characters for non-custom conversion specifiers:
-+
-space
-#
+Handle the following flag characters for non-custom conversion specifiers: + space #
 
 --------------------------------------------------------------
 
